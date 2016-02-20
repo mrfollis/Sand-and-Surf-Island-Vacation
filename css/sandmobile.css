@@ -1,0 +1,245 @@
+/* set's nav attributes for mobile css */
+#nav {
+	padding: 0;
+	width: 100%;
+	font-weight: bold;
+    float: none;
+    margin: 0;
+    }
+
+a { 
+     text-decoration: none;
+     color: #000033;
+     padding: 0.2em;
+     display: block;
+     font-size: 1.3em;
+     border-bottom: 1px solid #330000;
+}
+
+/*    changes style type to none removing the bullet points and sets zero margin and left padding */
+ul {
+  
+      margin: 0;
+      padding-left: 0;
+}
+
+/* Adds background image and color also font color and font family */
+body {
+	background-image: none;
+	background-color: #FFFFFF;
+	color: #666666;
+	font-family: Verdana,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+
+
+/* Sets css for the wrapper and all of it's content, gives color and box shadow with min and center aligned text and auto margin's*/
+#wrapper {
+	background-color: #90C7E3;
+	box-shadow: 10px 10px 5px #888888;
+	min-width: 0;
+    width: 100%;
+	position: center;
+	margin-left: 0;
+	margin-right: 0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#1e1e1e'";
+}
+
+
+/* provides h1 an img, no-repeat (default is repeat) positions background to right with padding,height, color and doubles line hight */
+h1 {
+	background-image: url('../photos/sunset.jpg'); 
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 20px;
+	height: 72px;
+	background-color: #000033;
+	color: #FFFFFF;
+	line-height: 200%;
+	font-family: Georgia, Serif-font;
+	margin: 0;
+    padding-top: 10px;
+    
+}
+
+
+
+/* h2 changes color light blue #3399cc and sets family font to georgia */
+h2 {
+	color: #3399CC;
+	font-family: Georgia, Serif;
+}
+
+
+
+
+/* h3 changes color dark blue  */
+h3 {
+	color: #000033;
+	}
+	
+
+	
+/* dt changes color dark blue  */
+dt {
+	color: #000033;
+}
+
+
+
+/* resort id changes color dark blue, and font size to 1.2em  */
+.resort {
+	color: #000033;
+	font-size: 1.2em;
+}
+
+
+/* adds 10px padding around footer section and changes font to .7em adds itlaic and center txt align */
+/*    clearing float*/
+footer {
+	padding: 0;
+	font-size: .70em;
+	font-style: italic;
+	text-align: center;
+    margin: 0;
+}
+
+
+
+/* Simple padding for content allowing a rounded rap around look */
+.content {
+	background-color: #ffffff;
+	padding-left: 0.4em;
+	padding-right: 0;
+    margin-left: 0;
+    padding-top: 0.1em;
+    margin: 0;
+    font-size: 90%;
+        
+}
+
+
+
+/*    configuring video */	
+.content img, .content video, .content embed {
+    float: left;
+    padding-right: 20px;
+   
+}
+
+
+
+/* Removes default border style */
+.img {
+	border-style:none;
+}
+
+
+
+/* Floats image to left and provides right padding of 0 px    */
+img {
+    display: none;
+    float: none;
+    padding-right: 0;
+    
+}
+
+
+/*    changes the unordered list style position to outside */
+ul {
+    list-style-position: outside;
+}
+
+
+/*    clears float */
+.clear {
+        padding-top: 0;
+        clear: left;
+}
+
+
+
+/*    add new rule configur table */
+table {
+    width: 600px;
+    margin: auto;
+    border-spacing: 0;
+    border: 1px solid #3399CC
+}
+
+/*    configure odd table rows with light blue background color */
+tr:nth-last-of-type(odd) {
+    background-color: #F5FAFC;
+}
+
+/*    controles moved to left css form */
+label{
+    float: left;
+    text-align: right;
+    width: 120px;
+    padding-right: 10px;
+    display: block;
+}
+
+/*    modfies text block with 20px bottom margin */
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+
+/*    creating an ID Submit */
+
+#mySubmit{
+    margin-left: 130px;
+    
+}
+
+/*    format form */
+form {
+    width: 350px;
+    padding: 10px;
+}
+
+
+/*    td attributes */
+td { text-align: center;
+    border: 1px solid #3399CC;
+    padding: 5px;
+}
+
+/*    th attributes */
+th { border: 1px solid #3399CC;
+    padding: 5px;
+}
+
+/*  text class attributes to left */
+.text {
+    text-align: left;
+}
+
+/*    padding for form  30px */
+form {
+    padding-bottom: 30px;
+}
+
+/* Clearfloat left */
+.clearfloat {
+    clear: left;
+}
+
+/* sets for mobile inline */
+#mobile {
+    display: inline;
+    
+}
+
+/* sets for desktop none */
+#desktop {
+    display: none;
+    
+}

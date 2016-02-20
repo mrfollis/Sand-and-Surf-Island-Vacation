@@ -1,0 +1,302 @@
+/* padding of  20px 5px 5px 20px around nav, set's width color and weight with left float */
+#nav {
+    list-style-type:none;   
+	padding: 20px 5px 5px 20px;
+	width: 160px;
+	font-weight: bold;
+    float: left;
+    }
+    
+/* gives all anchor default color removes deocration of text prior */
+a { 
+     text-decoration: none;
+     color: #000033; 
+}
+
+
+/* Creates bullets for all unordered list */
+ul {
+     list-style-type: disc;
+      margin: 0;
+      padding-left: 0;
+}
+
+/* Removes bullets in nav only */
+#wrapper    #nav    ul {
+    list-style-type: none;
+      
+}
+/* add's hover effect on mouse over */
+#wrapper    #nav    a:hover {
+    color: #ffffff; 
+    font-size: 125%;
+}
+
+/* add's a little pop on clicking of link */
+#wrapper    #nav    a:active {
+    font-size: 250%;
+    color: #000033;
+}
+
+/* Adds background image and color also font color and font family */
+body {
+	background-image: url('../photos/background.jpg');
+	background-color: #FFFFFF;
+	color: #666666;
+	font-family: Verdana,Arial,sans-serif;
+}
+
+
+
+/* Sets css for the wrapper and all of it's content, gives color and box shadow with min and center aligned text and auto margin's*/
+#wrapper {
+	background-color: #ff0000;
+	box-shadow: 10px 10px 5px #888888;
+	min-width: 960px;
+	position: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#1e1e1e'";
+}
+
+
+/* provides h1 an img, no-repeat (default is repeat) positions background to right with padding,height, color and doubles line hight */
+h1 {
+	background-image: url('../photos/sand and surf logo.jpg'); 
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 20px;
+	height: 72px;
+	background-color: #000080;
+	color: #FFFFFF;
+	line-height: 200%;
+	margin-bottom:0;
+    font-family: Arial, sans-serif;
+    font-stretch: expanded;
+}
+
+
+
+/* h2 changes color light blue #3399cc and sets family font to georgia */
+h2 {
+	color: #ff0000;
+	font-family: Georgia, Serif;
+}
+
+
+
+
+/* h3 changes color dark blue  */
+h3 {
+	color: #000033;
+	}
+	
+
+	
+/* dt changes color dark blue  */
+dt {
+	color: #000033;
+}
+
+
+
+
+
+/* resort id changes color dark blue, and font size to 1.2em  */
+.resort {
+	color: #000033;
+	font-size: 1.2em;
+}
+
+
+
+
+/* adds 10px padding around footer section and changes font to .7em adds itlaic and center txt align */
+/*    clearing float*/
+footer {
+	clear: both;
+    padding: 10px;
+	font-size: .70em;
+	font-style: italic;
+	text-align: center;
+    
+}
+
+
+
+
+
+/* Simple padding for content allowing a rounded rap around look */
+.content {
+	background-color: #ffffff;
+	padding-left: 20px;
+	padding-right: 20px;
+    margin-left: 160px;
+    padding-top: 1px;
+    
+}
+
+
+/*    configuring video float left with 20 padding */	
+.content img, .content video, .content embed {
+    float: left;
+    padding-right: 20px;
+   
+}
+
+/*   makes position of gallery relative */
+#gallery {
+    position: relative;
+    }
+
+/*   300 width and list style to none clearing it */
+#gallery ul {
+    width: 300px;
+    list-style-type: none;
+    
+}
+    
+/*   list item modifies float & display & padding but not sure if float is still needed  */
+#gallery li {
+    float: left;
+    display: inline;
+    padding: 10px;
+    
+}
+
+/*    boarder style to none for img*/
+#gallery img {
+    border-style: none;
+    
+}
+
+/*   a tag text decor to none & color & italic added */
+#gallery a {
+    text-decoration: none;
+    color: #333;
+    font-style: italic;
+    
+}
+
+/*   span to display none */
+#gallery span {
+    display: none;
+}
+
+/*    */
+#gallery a:hover span {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 340px;
+    text-align: center;
+}
+
+
+
+/* Removes default border style */
+.img {
+	border-style:none;
+}
+
+
+
+/* Floats image to left and provides right padding of 20 px    */
+img {
+    float: left;
+    padding-right: 20px;
+}
+
+
+/*    changes the unordered list style position to inside */
+ul {
+    list-style-position: inside;
+}
+
+
+/*    clears float */
+.clear {
+        clear: left;
+}
+
+
+
+/*    add new rule configur table */
+table {
+    width: 600px;
+    margin: auto;
+    border-spacing: 0;
+    border: 1px solid #ff0000
+}
+
+/*    configure odd table rows with light blue background color */
+tr:nth-last-of-type(odd) {
+    background-color: #F5FAFC;
+}
+
+/*    controles moved to left css form */
+label{
+    float: left;
+    text-align: right;
+    width: 120px;
+    padding-right: 10px;
+    display: block;
+}
+
+/*    modfies text dispaly block with bottom margin of 20px*/
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+
+/*   ID mysubmit with margin left 130px */
+
+#mySubmit{
+    margin-left: 130px;
+    
+}
+
+/*    format form width 350 px with padding 10px */
+form {
+    width: 350px;
+    padding: 10px;
+}
+
+
+/*    td text center border 1px dolor solid and 5px padding */
+td { text-align: center;
+    border: 1px solid #ff0000;
+    padding: 5px;
+}
+
+/*    th 1px solid color border and 5px padding */
+th { border: 1px solid #ff0000;
+    padding: 5px;
+}
+
+/*    creat class text left aligned */
+.text {
+    text-align: left;
+}
+
+/*    padding for form 30px bottom*/
+form {
+    padding-bottom: 30px;
+}
+
+
+/* clearfloat id clearing left */
+.clearfloat {
+    clear: left;
+}
+
+/* social ID with border 0 width 88 & height 88px */
+.social {
+    border: 0;    
+    width: 88px;
+    height: 88px;
+    }
+
+
